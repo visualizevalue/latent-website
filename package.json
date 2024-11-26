@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@visualizevalue/auctions-app-base": "^0.0.4",
+    "@visualizevalue/auctions-app-base": "^0.0.5",
     "feather-icons": "^4.29.2",
     "vue-feather": "^2.0.0"
   },

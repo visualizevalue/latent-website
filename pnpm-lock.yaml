@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@visualizevalue/auctions-app-base':
-        specifier: ^0.0.4
-        version: 0.0.4(@tanstack/query-core@5.61.4)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))
+        specifier: ^0.0.5
+        version: 0.0.5(@tanstack/query-core@5.61.4)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))
       feather-icons:
         specifier: ^4.29.2
         version: 4.29.2
@@ -2176,8 +2176,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  '@visualizevalue/auctions-app-base@0.0.4':
-    resolution: {integrity: sha512-rE7C26VdcES9vDiYYO4EaXdED60HE5CUVc4VsI+Y2UHKMZvp8PJsU6agF365L/PPSjy2gD9S6vm7gWjQKwXUVA==}
+  '@visualizevalue/auctions-app-base@0.0.5':
+    resolution: {integrity: sha512-c5NImg0vRUfqnfi8CeYXBYYs5CQzQI9L6VNwUjozLTXtshmdNBhOZF/pkRy2tlCg1SVNW2DOXa4kcwFnQMVleA==}
 
   '@visualizevalue/mint-utils@0.0.4':
     resolution: {integrity: sha512-mSWDVTrgMEnt7woW2DjzjzWvLIJ+2ckIQZUZG07YQz2kG4MOawzD9ISIIxhzvRDouS6OaT01QvQoixvCuDUxUw==}
@@ -8786,7 +8786,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@visualizevalue/auctions-app-base@0.0.4(@tanstack/query-core@5.61.4)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))':
+  '@visualizevalue/auctions-app-base@0.0.5(@tanstack/query-core@5.61.4)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@csstools/postcss-global-data': 2.1.1(postcss@8.4.49)
       '@nuxtjs/i18n': 8.5.6(magicast@0.3.5)(rollup@4.27.4)(vue@3.5.13(typescript@5.7.2))

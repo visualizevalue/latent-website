@@ -1,17 +1,24 @@
 <template>
   <main>
-    <Auction id="1" />
+    <Auction v-if="scope" :id="scope" />
+    <NuxtPage v-else />
   </main>
 </template>
 
-<style>
-@import "~/assets/theme.css";
-</style>
+<script setup>
+const config = useRuntimeConfig()
+
+const scope = computed(() => config.public.auctionId)
+</script>
 
 <style scoped>
 main {
   display: grid;
   gap: var(--spacer);
 }
+</style>
+
+<style>
+@import "~/assets/theme.css";
 </style>
 
