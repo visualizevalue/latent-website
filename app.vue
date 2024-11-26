@@ -1,6 +1,12 @@
 <template>
   <main>
     <Auction v-if="scope" :id="scope">
+      <template #artifact-after>
+        <p>
+          Click to toggle positive
+        </p>
+      </template>
+
       <template #header-after>
         <p>
           ERC-721 on Ethereum
@@ -9,6 +15,7 @@
           Read more on <NuxtLink to="https://www.jack.art/work/latent">Latent</NuxtLink>
         </p>
       </template>
+
       <template #secondary-details>
         <aside class="prose">
           <p>

@@ -4,6 +4,24 @@
 
 .auction-detail {
 
+  .artifact {
+    user-select: none;
+
+    > div {
+      > *:first-child {
+        cursor: pointer;
+      }
+      > p {
+        text-align: center;
+        color: var(--muted);
+        font-size: var(--font-sm);
+        margin-top: var(--size-4);
+        pointer-events: none;
+        user-select: none;
+      }
+    }
+  }
+
   .details {
 
     .fieldset-wrapper {
