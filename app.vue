@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Auction id="3" />
+    <Auction id="1" />
   </main>
 </template>
 
