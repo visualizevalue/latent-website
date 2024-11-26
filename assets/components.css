@@ -1,0 +1,23 @@
+.centered {
+  text-align: center;
+}
+
+.auction-detail {
+
+  .details {
+
+    .fieldset-wrapper {
+      .form-item {
+        input {
+          padding-right: 0;
+        }
+
+        .suffix {
+          border-left: 0;
+          padding-left: var(--size-1);
+        }
+      }
+    }
+
+  }
+}
