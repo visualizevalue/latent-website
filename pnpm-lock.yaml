@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@visualizevalue/auctions-app-base':
-        specifier: ^0.0.8
-        version: 0.0.8(@tanstack/query-core@5.61.4)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))
+        specifier: ^0.0.9
+        version: 0.0.9(@tanstack/query-core@5.61.5)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))
       feather-icons:
         specifier: ^4.29.2
         version: 4.29.2
@@ -2075,11 +2075,11 @@ packages:
     resolution: {integrity: sha512-Wo1iKt2b9OT7d+YGhvEPD3DXvPv2etTusIMhMUoG7fbhmxcXCtIjJDEygy91Y2JFlwGyjqiBPRozme7UD8hoqg==}
     engines: {node: '>=12'}
 
-  '@tanstack/query-core@5.61.4':
-    resolution: {integrity: sha512-rsnemyhPvEG4ViZe0R2UQDM8NgQS/BNC5/Gf9RTs0TKN5thUhPUwnL2anWG4jxAGKFyDfvG7PXbx6MRq3hxi1w==}
+  '@tanstack/query-core@5.61.5':
+    resolution: {integrity: sha512-iG5vqurEOEbv+paP6kW3zPENa99kSIrd1THISJMaTwVlJ+N5yjVDNOUwp9McK2DWqWCXM3v13ubBbAyhxT78UQ==}
 
-  '@tanstack/vue-query@5.61.4':
-    resolution: {integrity: sha512-zZ0HAtEGf9MHxqdKyL8w1+O/bVJhkmsLLqHrQiK2yA+4bIj0u+o1fR7kvgA4Uc3wMUpnhdJpVJdKIu9jzaXUzg==}
+  '@tanstack/vue-query@5.61.5':
+    resolution: {integrity: sha512-jRr+r/ZN8raqoPdPeiWPNpXDK5Is137N6t/p9h5gS8Dy9HKaHP4idHvXjmfwwzdqH+rwUyxmmmLH68YUBOEpMQ==}
     peerDependencies:
       '@vue/composition-api': ^1.1.2
       vue: ^2.6.0 || ^3.3.0
@@ -2176,8 +2176,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  '@visualizevalue/auctions-app-base@0.0.8':
-    resolution: {integrity: sha512-fh6K4KhvDGWqQWN4QIo6IZQrluYuzbZdAd2Yp/9LJoyrdoYOhm5KHJEFrY58/iEdaXt5EUYVEGutpjsYf1UVaQ==}
+  '@visualizevalue/auctions-app-base@0.0.9':
+    resolution: {integrity: sha512-vrjEWVvkVWpIgu3BELBrBynrZtbIDZQx2yyegQk1/tWTuD9CdCZdCLeFgPj7zWYXPfhVQBV+Uwh5x5cUCo3r3w==}
 
   '@visualizevalue/mint-utils@0.0.4':
     resolution: {integrity: sha512-mSWDVTrgMEnt7woW2DjzjzWvLIJ+2ckIQZUZG07YQz2kG4MOawzD9ISIIxhzvRDouS6OaT01QvQoixvCuDUxUw==}
@@ -4565,8 +4565,8 @@ packages:
       pinia:
         optional: true
 
-  pinia@2.2.6:
-    resolution: {integrity: sha512-vIsR8JkDN5Ga2vAxqOE2cJj4VtsHnzpR1Fz30kClxlh0yCHfec6uoMeM3e/ddqmwFUejK3NlrcQa/shnpyT4hA==}
+  pinia@2.2.7:
+    resolution: {integrity: sha512-M+X9Eh9V5De+8wyj0rD1cgB0zy1mPN/aBEpCI9y+DgVmzXV2dIwjYBluJ5cMQd/jAoHs0VW+EyUSHMZv/Wtcnw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -8188,12 +8188,12 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.0
       '@parcel/watcher-win32-x64': 2.5.0
 
-  '@pinia-plugin-persistedstate/nuxt@1.2.1(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4)':
+  '@pinia-plugin-persistedstate/nuxt@1.2.1(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4)':
     dependencies:
       '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@4.27.4)
       '@pinia/nuxt': 0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
       defu: 6.1.4
-      pinia-plugin-persistedstate: 4.1.3(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4)
+      pinia-plugin-persistedstate: 4.1.3(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4)
     transitivePeerDependencies:
       - magicast
       - pinia
@@ -8203,7 +8203,7 @@ snapshots:
   '@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@4.27.4)
-      pinia: 2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
+      pinia: 2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - magicast
@@ -8657,12 +8657,12 @@ snapshots:
     dependencies:
       remove-accents: 0.5.0
 
-  '@tanstack/query-core@5.61.4': {}
+  '@tanstack/query-core@5.61.5': {}
 
-  '@tanstack/vue-query@5.61.4(vue@3.5.13(typescript@5.7.2))':
+  '@tanstack/vue-query@5.61.5(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@tanstack/match-sorter-utils': 8.19.4
-      '@tanstack/query-core': 5.61.4
+      '@tanstack/query-core': 5.61.5
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.7.2)
       vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.2))
@@ -8786,19 +8786,19 @@ snapshots:
       - encoding
       - supports-color
 
-  '@visualizevalue/auctions-app-base@0.0.8(@tanstack/query-core@5.61.4)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))':
+  '@visualizevalue/auctions-app-base@0.0.9(@tanstack/query-core@5.61.5)(bufferutil@4.0.8)(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(postcss@8.4.49)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@csstools/postcss-global-data': 2.1.1(postcss@8.4.49)
       '@nuxtjs/i18n': 8.5.6(magicast@0.3.5)(rollup@4.27.4)(vue@3.5.13(typescript@5.7.2))
-      '@pinia-plugin-persistedstate/nuxt': 1.2.1(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4)
+      '@pinia-plugin-persistedstate/nuxt': 1.2.1(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4)
       '@pinia/nuxt': 0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
-      '@tanstack/vue-query': 5.61.4(vue@3.5.13(typescript@5.7.2))
+      '@tanstack/vue-query': 5.61.5(vue@3.5.13(typescript@5.7.2))
       '@types/node': 22.10.0
       '@visualizevalue/mint-utils': 0.0.4(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)
       '@vueuse/components': 10.11.1(vue@3.5.13(typescript@5.7.2))
       '@vueuse/core': 11.3.0(vue@3.5.13(typescript@5.7.2))
-      '@wagmi/core': 2.15.0(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
-      '@wagmi/vue': 0.0.40(@tanstack/query-core@5.61.4)(@tanstack/vue-query@5.61.4(vue@3.5.13(typescript@5.7.2)))(bufferutil@4.0.8)(ioredis@5.4.1)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(vue@3.5.13(typescript@5.7.2))
+      '@wagmi/core': 2.15.0(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
+      '@wagmi/vue': 0.0.40(@tanstack/query-core@5.61.5)(@tanstack/vue-query@5.61.5(vue@3.5.13(typescript@5.7.2)))(bufferutil@4.0.8)(ioredis@5.4.1)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(vue@3.5.13(typescript@5.7.2))
       buffer: 6.0.3
       luxon: 3.5.0
       postcss-custom-media: 10.0.8(postcss@8.4.49)
@@ -9048,13 +9048,13 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@wagmi/connectors@5.1.8(@wagmi/core@2.13.4(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(ioredis@5.4.1)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))':
+  '@wagmi/connectors@5.1.8(@wagmi/core@2.13.4(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(ioredis@5.4.1)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))':
     dependencies:
       '@coinbase/wallet-sdk': 4.0.4
       '@metamask/sdk': 0.27.0(bufferutil@4.0.8)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(utf-8-validate@5.0.10)
       '@safe-global/safe-apps-provider': 0.18.3(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)
       '@safe-global/safe-apps-sdk': 9.1.0(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)
-      '@wagmi/core': 2.13.4(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
+      '@wagmi/core': 2.13.4(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
       '@walletconnect/ethereum-provider': 2.15.2(bufferutil@4.0.8)(ioredis@5.4.1)(react@18.3.1)(utf-8-validate@5.0.10)
       '@walletconnect/modal': 2.6.2(react@18.3.1)
       cbw-sdk: '@coinbase/wallet-sdk@3.9.3'
@@ -9086,28 +9086,28 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@wagmi/core@2.13.4(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))':
+  '@wagmi/core@2.13.4(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))':
     dependencies:
       eventemitter3: 5.0.1
       mipd: 0.0.7(typescript@5.7.2)
       viem: 2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)
       zustand: 4.4.1(react@18.3.1)
     optionalDependencies:
-      '@tanstack/query-core': 5.61.4
+      '@tanstack/query-core': 5.61.5
       typescript: 5.7.2
     transitivePeerDependencies:
       - '@types/react'
       - immer
       - react
 
-  '@wagmi/core@2.15.0(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))':
+  '@wagmi/core@2.15.0(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0(react@18.3.1))(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))':
     dependencies:
       eventemitter3: 5.0.1
       mipd: 0.0.7(typescript@5.7.2)
       viem: 2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)
       zustand: 5.0.0(react@18.3.1)(use-sync-external-store@1.2.0(react@18.3.1))
     optionalDependencies:
-      '@tanstack/query-core': 5.61.4
+      '@tanstack/query-core': 5.61.5
       typescript: 5.7.2
     transitivePeerDependencies:
       - '@types/react'
@@ -9115,11 +9115,11 @@ snapshots:
       - react
       - use-sync-external-store
 
-  '@wagmi/vue@0.0.40(@tanstack/query-core@5.61.4)(@tanstack/vue-query@5.61.4(vue@3.5.13(typescript@5.7.2)))(bufferutil@4.0.8)(ioredis@5.4.1)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(vue@3.5.13(typescript@5.7.2))':
+  '@wagmi/vue@0.0.40(@tanstack/query-core@5.61.5)(@tanstack/vue-query@5.61.5(vue@3.5.13(typescript@5.7.2)))(bufferutil@4.0.8)(ioredis@5.4.1)(nuxt@3.14.1592(@parcel/watcher@2.5.0)(@types/node@22.10.0)(bufferutil@4.0.8)(idb-keyval@6.2.1)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)(utf-8-validate@5.0.10)(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0)))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
-      '@tanstack/vue-query': 5.61.4(vue@3.5.13(typescript@5.7.2))
-      '@wagmi/connectors': 5.1.8(@wagmi/core@2.13.4(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(ioredis@5.4.1)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
-      '@wagmi/core': 2.13.4(@tanstack/query-core@5.61.4)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
+      '@tanstack/vue-query': 5.61.5(vue@3.5.13(typescript@5.7.2))
+      '@wagmi/connectors': 5.1.8(@wagmi/core@2.13.4(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(ioredis@5.4.1)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.27.4)(typescript@5.7.2)(utf-8-validate@5.0.10)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
+      '@wagmi/core': 2.13.4(@tanstack/query-core@5.61.5)(react@18.3.1)(typescript@5.7.2)(viem@2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
       viem: 2.21.51(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)
       vue: 3.5.13(typescript@5.7.2)
     optionalDependencies:
@@ -11997,7 +11997,7 @@ snapshots:
 
   pify@5.0.0: {}
 
-  pinia-plugin-persistedstate@4.1.3(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4):
+  pinia-plugin-persistedstate@4.1.3(@pinia/nuxt@0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(magicast@0.3.5)(pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)))(rollup@4.27.4):
     dependencies:
       '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@4.27.4)
       deep-pick-omit: 1.2.1
@@ -12005,13 +12005,13 @@ snapshots:
       destr: 2.0.3
     optionalDependencies:
       '@pinia/nuxt': 0.5.5(magicast@0.3.5)(rollup@4.27.4)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
-      pinia: 2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
+      pinia: 2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))
     transitivePeerDependencies:
       - magicast
       - rollup
       - supports-color
 
-  pinia@2.2.6(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)):
+  pinia@2.2.7(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.7.2)
